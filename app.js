@@ -31,7 +31,7 @@ const renderAstronauts = data => {
         astId.textContent = i+1;
         astName.textContent = astronauts[i].name;
         astCraft.textContent = astronauts[i].craft;
-        astPic.setAttribute('src', `./images/${i+1}.jpg`);
+        astPic.setAttribute('src', `./images/${astId.textContent}.jpg`);
 
         astPic.style.width = '200px';
         astPic.style.height = '200px';
